@@ -1,15 +1,15 @@
 name: Shell Commands
 on: [push]
 jobs:
-run-shell-command:
-  runs-on: ubuntu:latest
-  steps:
-    - name: run a single command
-      run: echo :Hello Worls!!!"
-    - name: run a multiple commands
-      run: |
-        df -h
-        uname -a
+  run-shell-command:
+    runs-on: ubuntu:latest
+    steps:
+      - name: run a single command
+        run: echo :Hello Worls!!!"
+      - name: run a multiple commands
+        run: |
+          df -h
+          uname -a
 
 
 
