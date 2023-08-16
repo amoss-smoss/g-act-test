@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run a single command
-        run: echo :Hello Worls!!!"
+        run: echo "Hello Worls!!!"
       - name: run a multiple commands
         run: |
           df -h
